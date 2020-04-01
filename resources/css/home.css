@@ -27,7 +27,7 @@ body {
 
 .nav-info {
 	font-family: 'SFProDisplay-Thin';
-	font-size: 1.875em;
+	font-size: 30px;
 	font-weight: 100;
 	font-stretch: normal;
 	font-style: normal;
@@ -53,8 +53,3 @@ iframe {
 	margin-bottom: 59px;
 	display: block;
 }
-
-
-
-
-
