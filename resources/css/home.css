@@ -1,136 +1,69 @@
 @font-face {
-  font-family: SFProDisplay-Thin;
-  src: url("../SF-Fonts/SF-Pro-Display-Thin.otf") format("opentype");
+	font-family: SFProDisplay-Thin;
+	src: url("../SF-Fonts/SF-Pro-Display-Thin.otf") format("opentype");
 }
 
-body{
-    background-image: url(../img/Tiger_Background.jpg);
-
+body {
+	background-image: url(../img/Tiger_Background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
-.content-top{
-    display: inline-block;
+.content-top {
+	display: inline-block;
 }
 
-.Netflix-Logo{
-    width: 61px;
-    height: 61px;
-    object-fit: contain;
-    margin-left: 23px;
-    margin-top: 23px;
-    display: inline-block;
-    margin-right: 151px;
+.Netflix-Logo {
+	width: 61px;
+	height: 61px;
+	object-fit: contain;
+	margin-left: 23px;
+	margin-top: 23px;
+	display: inline-block;
+	margin-right: 151px;
 }
-
- .Home {
-    opacity:  0.75;
- 
-  }
-
-.Episodes {
-    opacity: 0.35;
-  }
-
-.Quotes {
-    opacity: 0.35;
-
-  }
 
 .nav-info {
-    font-family: 'SFProDisplay-Thin' ;
-    font-size: 30px;
-    font-weight: 100;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.47;
-    letter-spacing: 0.45px;
-    text-align: left;
-    color: #ffffff;
-    display: inline-block;
-    margin-right: 46px;
-    
+	font-family: 'SFProDisplay-Thin';
+	font-size: 30px;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.47;
+	letter-spacing: 0.45px;
+	text-align: left;
+	color: #ffffff;
+	display: inline-block;
+	margin-right: 46px;
+}
+
+.Home {
+	opacity: 0.75;
+}
+
+.Episodes {
+	opacity: 0.35;
+}
+
+.Quotes {
+	opacity: 0.35;
 }
 
 .Quote {
-    width: 302px;
-    height: 173px;
-    object-fit: contain;
-    margin-left: 235px;
-    margin-top: 48px;
-    
-    
-  }
+	width: 302px;
+	height: 173px;
+	object-fit: contain;
+	margin-left: 235px;
+	margin-top: 48px;
+}
 
-
-iframe{
-margin-top: 168px;
-margin-left: 54px;
-margin-bottom: 59px;
-margin-right: 854px;
+iframe {
+	margin-top: 168px;
+	margin-left: 54px;
+	margin-bottom: 59px;
 }
 
 
 
 
 
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-/* Styles */
-}
-
-/* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-width : 321px) {
-/* Styles */
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
-/* Styles */
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-/* Styles */
-}
-
-/* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-/* Styles */
-}
-
-/* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-/* Styles */
-}
-
-/* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-/* Styles */
-}
-
-/* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-/* Styles */
-}
-
-/* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-/* Styles */
-}
