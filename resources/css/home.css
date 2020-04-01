@@ -3,14 +3,16 @@
 	src: url("../SF-Fonts/SF-Pro-Display-Thin.otf") format("opentype");
 }
 
+html {
+	min-width: 1080px;
+}
+
 body {
+	height: 100%;
+	width: 100%;
 	background-image: url(../img/Tiger_Background.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-}
-
-.content-top {
-	display: inline-block;
 }
 
 .Netflix-Logo {
@@ -25,7 +27,7 @@ body {
 
 .nav-info {
 	font-family: 'SFProDisplay-Thin';
-	font-size: 30px;
+	font-size: 1.875em;
 	font-weight: 100;
 	font-stretch: normal;
 	font-style: normal;
@@ -35,18 +37,6 @@ body {
 	color: #ffffff;
 	display: inline-block;
 	margin-right: 46px;
-}
-
-.Home {
-	opacity: 0.75;
-}
-
-.Episodes {
-	opacity: 0.35;
-}
-
-.Quotes {
-	opacity: 0.35;
 }
 
 .Quote {
@@ -61,6 +51,7 @@ iframe {
 	margin-top: 168px;
 	margin-left: 54px;
 	margin-bottom: 59px;
+	display: block;
 }
 
 
