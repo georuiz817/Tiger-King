@@ -1,68 +1,67 @@
-@font-face {
-	font-family: SFProDisplay-Thin;
-	src: url("../SF-Fonts/SF-Pro-Display-Thin.otf") format("opentype");
+@media only screen and (min-width: 600px){
+	
+	@font-face {
+		font-family: SFProDisplay-Thin;
+		src: url("../SF-Fonts/SF-Pro-Display-Thin.otf") format("opentype");
+	}
+	
+	body {
+		height: 100%;
+		width: 100%;
+		background-image: url(../img/Tiger_Background.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		font-size: 16px;
+	}
+	
+	.Netflix-Logo {
+		width: 61px; /* 61px/1280px */
+		height: 61px; /* 61px/1280px */
+		object-fit: contain;
+		margin-left: 1.796875%; /* 23px/1280px */
+		margin-top: 1.796875%; /* 23px/1280px */
+		display: inline-block;
+		margin-right: 11.796875%; /* 151px/1280px */
+	}
+	
+	.nav-info {
+		font-family: 'SFProDisplay-Thin';
+		font-size: 30px; /* 30px/1280px */
+		font-weight: 100;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.47;
+		letter-spacing: 0.035156%; /* 0.45px/1280px */
+		text-align: left;
+		color: #ffffff;
+		display: inline-block;
+		margin-right: 3.59375%; /* 46px/1280px */
+	}
+	
+	.Quote {
+		width: 302px;
+		height: 173px;
+		object-fit: contain;
+		margin-left: 18.359375%; /* 235px/1280px */
+		margin-top: 3.75%; /* 48px/1280px */
+	}
+	
+	iframe {
+		width: 372px; 
+		height:241px;
+		margin-top: 13.125%; /* 168px/1280px */
+		margin-left: 4.21875%; /* 54px/1280px */
+		margin-bottom: 4.609375%; /* 59px/1280px */
+		display: block;
+	}
+	
 }
 
-body {
-	height: 100%;
-	width: 100%;
-	background-image: url(../img/Tiger_Background.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.Netflix-Logo {
-	width: 61px;
-	height: 61px;
-	object-fit: contain;
-	margin-left: 23px;
-	margin-top: 23px;
-	display: inline-block;
-	margin-right: 151px;
-}
-
-.nav-info {
-	font-family: 'SFProDisplay-Thin';
-	font-size: 30px;
-	font-weight: 100;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: 1.47;
-	letter-spacing: 0.45px;
-	text-align: left;
-	color: #ffffff;
-	display: inline-block;
-	margin-right: 46px;
-}
-
-.Quote {
-	width: 302px;
-	height: 173px;
-	object-fit: contain;
-	margin-left: 235px;
-	margin-top: 48px;
-}
-
-iframe {
-	margin-top: 168px;
-	margin-left: 54px;
-	margin-bottom: 59px;
-	display: block;
-}
 
 
 
 
 
-/* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-/* Styles */
-}
 
-/* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-/* Styles */
-}
+
 

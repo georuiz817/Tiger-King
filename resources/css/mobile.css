@@ -1,0 +1,34 @@
+@media only screen and (max-width: 600px){
+
+    body{
+        background-image: url(../img/Tiger_Background.jpg);
+		background-size: stretch;
+		background-repeat: no-repeat
+    };
+
+    .Netflix-Logo {
+		width: 10.166667%; /* 61px/600 */
+		height: 10.166667%; /* 61px/600 */
+		object-fit: contain;
+		margin-left: 1.796875%; /* 23px/1280px */
+		margin-top: 1.796875%; /* 23px/1280px */
+		display: inline-block;
+		margin-right: 11.796875%; /* 151px/1280px */
+	}
+	
+	.nav-info {
+		font-family: 'SFProDisplay-Thin';
+		font-size:  1.875em; /* 30px/1280px */
+		font-weight: 100;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.47;
+		letter-spacing: 0.035156%; /* 0.45px/1280px */
+		text-align: left;
+		color: #ffffff;
+		display: inline-block;
+		margin-right: 3.59375%; /* 46px/1280px */
+	}
+
+
+}
