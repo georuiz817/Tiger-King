@@ -3,10 +3,6 @@
 	src: url("../SF-Fonts/SF-Pro-Display-Thin.otf") format("opentype");
 }
 
-html {
-	min-width: 1080px;
-}
-
 body {
 	height: 100%;
 	width: 100%;
@@ -53,3 +49,20 @@ iframe {
 	margin-bottom: 59px;
 	display: block;
 }
+
+
+
+
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
