@@ -7,18 +7,20 @@
 
     body{
         background-image: url(../img/Tiger_Background.jpg);
-		background-size: stretch;
-		background-repeat: no-repeat
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+
+		
     };
 
     .Netflix-Logo {
-		width: 3.875%; /* 31/800 */
-		height: 3.875%; /* 31/800 */
+		width: 31px;
+		height: 31px;
 		object-fit: contain;
-		margin-left: 2.875%; /* 23/800 */
-		margin-top: 2.875%; /* 23/800 */
+		margin-left: 23px;
+		margin-top: 23px;
 		display: inline-block;
-		margin-right: 3.375%; /* 27/800 */
+		margin-right: 44px;
 	}
 	
 	.nav-info {
@@ -28,12 +30,12 @@
 		font-stretch: normal;
 		font-style: normal;
 		line-height: 1.47;
-		letter-spacing: 0.03375%; /* 0.27/800 */
+		letter-spacing: 0.27px;
 		text-align: left;
 		color: #ffffff;
 		display: inline-block;
-		margin-right: 5.5%; /* 44/800 */
-		margin-top: 3.5%; /* 28/800 */
+		margin-right: 44px;
+		margin-top: 28px;
 		
     }
     
@@ -41,15 +43,15 @@
 		width: 222px;
 		height: 135px;
 		object-fit: contain;
-		margin-left: 1.625%; /* 13/800 */
-		margin-top: 14.875%; /* 119/800 */
+		margin-left: 13px;
+		margin-top: 119px;
 	}
 	
 	iframe {
-		width: 90%;
+		width: 372px;
 		height:	241px;
 		margin-top: 206px;
-		margin-bottom: 7.375%; /* 59px/800 */
+		margin-bottom: 58px;
 		display: block;
 }
 
