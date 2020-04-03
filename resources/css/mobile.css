@@ -6,19 +6,18 @@
 	}
 
     body{
-        background-image: url(../img/Tiger_Background.jpg);
+		background-image: url(../img/Tiger_Background.jpg);
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
-
-		
-    };
+		background-position: absolute;
+	};
 
     .Netflix-Logo {
 		width: 31px;
 		height: 31px;
 		object-fit: contain;
 		margin-left: 21px;
-		margin-top: 23px;
+		margin-top: 21px;
 		display: inline-block;
 		margin-right: 44px;
 	}
@@ -36,8 +35,7 @@
 		display: inline-block;
 		margin-right: 44px;
 		margin-top: 28px;
-		
-    }
+     }
     
     .Quote {
 		width: 222px;
