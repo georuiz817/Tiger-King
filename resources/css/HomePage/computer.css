@@ -1,10 +1,5 @@
 @media only screen and (min-width: 1280px){
 	
-	@font-face {
-		font-family: SFProDisplay-Thin;
-		src: url('../../SF-Fonts/SF-Pro-Display-Thin.otf') format("opentype");
-	}
-	
 	body {
 		height: 100%;
 		width: 100%;

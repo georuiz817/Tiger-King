@@ -1,4 +1,10 @@
 @media only screen and (min-width: 1280px){
+
+	@font-face {
+		font-family: SFProDisplay-Thin;
+		src: url('../../SF-Fonts/SF-Pro-Display-Thin.otf') format("opentype");
+	}
+
     .Netflix-Logo {
 		width: 61px; /* 61px/1280px */
 		height: 61px; /* 61px/1280px */
@@ -41,5 +47,159 @@
 		opacity: 0.35
 	 }
 }
+
+
+@media only screen and (max-width: 600px){
+
+	@font-face {
+		font-family: SFProDisplay-Thin;
+		src: url('../../SF-Fonts/SF-Pro-Display-Thin.otf') format("opentype");
+	}
+
+	.Netflix-Logo {
+		width: 31px;
+		height: 31px;
+		object-fit: contain;
+		margin-left: 23px;
+		margin-top: 21px;
+		display: inline-block;
+		margin-right: 27px;
+	}
+
+	a:link, a:visited{
+		text-decoration: none;
+		color: white;
+	}
+	
+	.nav-info {
+		font-family: 'SFProDisplay-Thin';
+		font-size:  18px;
+		font-weight: 100;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 2.44;
+		letter-spacing: 0.27px;
+		text-align: left;
+		color: #ffffff;
+		display: inline-block;
+		margin-right: 26px;
+		margin-top: 28px;
+	 }
+	 
+	#Home{
+		opacity: 0.75;
+		text-decoration: underline;
+	}
+
+	#Episodes{
+		opacity: 0.35
+	}
+
+	 #Quotes{
+		opacity: 0.35
+	 }
+}
+
+@media only screen and (min-width: 600px){
+
+	@font-face {
+		font-family: SFProDisplay-Thin;
+		src: url('../../SF-Fonts/SF-Pro-Display-Thin.otf') format("opentype");
+	}
+
+	.Netflix-Logo {
+		width: 61px; /* 61px/1280px */
+		height: 61px; /* 61px/1280px */
+		object-fit: contain;
+		margin-left: 23px;
+		margin-top: 23px;
+		display: inline-block;
+		margin-right: 51px;
+	}
+
+	a:link, a:visited{
+		text-decoration: none;
+		color: white;
+	}
+	
+	.nav-info {
+		font-family: 'SFProDisplay-Thin';
+		font-size: 30px; /* 30px/1280px */
+		font-weight: 100;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.47;
+		letter-spacing: 0.035156%; /* 0.45px/1280px */
+		text-align: left;
+		color: #ffffff;
+		display: inline-block;
+		margin-right: 44px;
+	}
+
+	#Home{
+		opacity: 0.75;
+		text-decoration: underline;
+	}
+
+	#Episodes{
+		opacity: 0.35
+	}
+
+	 #Quotes{
+		opacity: 0.35
+	 }
+}
+
+@media only screen and (min-width: 1024px){
+
+	@font-face {
+		font-family: SFProDisplay-Thin;
+		src: url('../../SF-Fonts/SF-Pro-Display-Thin.otf') format("opentype");
+	}
+	
+	.Netflix-Logo {
+		width: 61px; /* 61px/1280px */
+		height: 61px; /* 61px/1280px */
+		object-fit: contain;
+		margin-left: 23px;
+		margin-top: 23px;
+		display: inline-block;
+		margin-right: 101px;
+	}
+
+	a:link, a:visited{
+		text-decoration: none;
+		color: white;
+	}
+	
+	.nav-info {
+		font-family: 'SFProDisplay-Thin';
+		font-size: 30px; /* 30px/1280px */
+		font-weight: 100;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.47;
+		letter-spacing: 0.035156%; /* 0.45px/1280px */
+		text-align: left;
+		color: #ffffff;
+		display: inline-block;
+        margin-right: 46px;
+        margin-top: 48px;
+	}
+
+	#Home{
+		opacity: 0.75;
+		text-decoration: underline;
+	}
+
+	#Episodes{
+		opacity: 0.35
+	}
+
+	 #Quotes{
+		opacity: 0.35
+	 }
+}
+
 
 
