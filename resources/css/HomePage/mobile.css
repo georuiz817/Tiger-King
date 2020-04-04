@@ -2,11 +2,11 @@
 		
 	@font-face {
 		font-family: SFProDisplay-Thin;
-		src: url("../SF-Fonts/SF-Pro-Display-Thin.otf") format("opentype");
+		src: url("../../SF-Fonts/SF-Pro-Display-Thin.otf") format("opentype");
 	}
 
     body{
-		background-image: url(../img/Tiger_Background.jpg);
+		background-image: url(../../img/Tiger_Background.jpg);
 		background-size: cover;
 		background-repeat: no-repeat;
 	};

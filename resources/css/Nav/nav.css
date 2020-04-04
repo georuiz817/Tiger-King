@@ -1,20 +1,5 @@
 @media only screen and (min-width: 1280px){
-	
-	@font-face {
-		font-family: SFProDisplay-Thin;
-		src: url("../SF-Fonts/SF-Pro-Display-Thin.otf") format("opentype");
-	}
-	
-	body {
-		height: 100%;
-		width: 100%;
-		background-image: url(../img/Tiger_Background.jpg);
-		background-size: cover;
-		background-repeat: no-repeat;
-		font-size: 2.666667%; /* 16px/600 */
-	}
-	
-	.Netflix-Logo {
+    .Netflix-Logo {
 		width: 61px; /* 61px/1280px */
 		height: 61px; /* 61px/1280px */
 		object-fit: contain;
@@ -55,22 +40,6 @@
 	 #Quotes{
 		opacity: 0.35
 	 }
-	
-	.Quote {
-		width: 302px;
-		height: 173px;
-		object-fit: contain;
-		margin-left: 18.359375%; /* 235px/1280px */
-		margin-top: 3.75%; /* 48px/1280px */
-	}
-	
-	iframe {
-		width: 372px; 
-		height:241px;
-		margin-top: 13.125%; /* 168px/1280px */
-		margin-left: 4.21875%; /* 54px/1280px */
-		margin-bottom: 3%;
-		display: block;
-	}
-	
 }
+
+
