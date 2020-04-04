@@ -23,6 +23,11 @@
 		display: inline-block;
 		margin-right: 101px;
 	}
+
+	a:link, a:visited{
+		text-decoration: none;
+		color: white;
+	}
 	
 	.nav-info {
 		font-family: 'SFProDisplay-Thin';
@@ -38,6 +43,19 @@
         margin-right: 46px;
         margin-top: 48px;
 	}
+
+	#Home{
+		opacity: 0.75;
+		text-decoration: underline;
+	}
+
+	#Episodes{
+		opacity: 0.35
+	}
+
+	 #Quotes{
+		opacity: 0.35
+	 }
 	
 	.Quote {
 		width: 303px;
