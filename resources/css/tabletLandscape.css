@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 1024px){
 	
 	@font-face {
 		font-family: SFProDisplay-Thin;
@@ -21,7 +21,7 @@
 		margin-left: 23px;
 		margin-top: 23px;
 		display: inline-block;
-		margin-right: 51px;
+		margin-right: 101px;
 	}
 	
 	.nav-info {
@@ -35,23 +35,24 @@
 		text-align: left;
 		color: #ffffff;
 		display: inline-block;
-		margin-right: 44px;
+        margin-right: 18px;
+        margin-top: 48px;
 	}
 	
 	.Quote {
-		width: 302px;
+		width: 303px;
 		height: 173px;
 		object-fit: contain;
-		margin-left: 112px;
-		margin-top: 123px;
+		margin-left: 173px;
+		margin-top: 67px;
 	}
 	
 	iframe {
 		width: 372px; 
 		height:241px;
-		margin-top: 335px;
-        margin-left: 198px;
-        margin-right: 198px;
+		margin-top: 144px;
+        margin-left: 54px;
+        margin-right: 598px;
 		margin-bottom: 59px;
 		display: block;
 	}

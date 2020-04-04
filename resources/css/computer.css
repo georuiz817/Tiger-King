@@ -9,7 +9,7 @@
 		height: 100%;
 		width: 100%;
 		background-image: url(../img/Tiger_Background.jpg);
-		background-size: 1440px 900px;
+		background-size: cover;
 		background-repeat: no-repeat;
 		font-size: 2.666667%; /* 16px/600 */
 	}
@@ -35,7 +35,7 @@
 		text-align: left;
 		color: #ffffff;
 		display: inline-block;
-		margin-right: 3.59375%; /* 46px/1280px */
+		margin-right: 151px;
 	}
 	
 	.Quote {
